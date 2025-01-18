@@ -5,7 +5,7 @@ This repository contains a Python implementation of the Topsis method, a popular
 ##Usage
 1. Create an Excel file with your data. The first column should be the names of the items (like fund names), and the next columns should have the criteria values.
 2. Run the script from the command line:
-   python 102203269.py <InputDataFile> <Weights> <Impacts> <ResultFileName>
+   python "102203269.py <InputDataFile> <Weights> <Impacts> <ResultFileName>"
 
    Example Command
    python 102203269.py data.xlsx "0.3,0.4,0.3,0.2,0.6" "+,+,-,+,-" results.csv
