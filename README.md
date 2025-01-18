@@ -8,6 +8,7 @@ This repository contains a Python implementation of the Topsis method, a popular
    python "102203269.py <InputDataFile> <Weights> <Impacts> <ResultFileName>"
 
    Example Command
+   ```bash
    python 102203269.py data.xlsx "0.3,0.4,0.3,0.2,0.6" "+,+,-,+,-" results.csv
 
 ##Output
