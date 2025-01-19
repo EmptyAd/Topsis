@@ -6,7 +6,7 @@ This repository contains a Python implementation of the Topsis method, a popular
 1. Create an Excel file with your data. The first column should be the names of the items (like fund names), and the next columns should have the criteria values.
 2. Run the script from the command line:
    ```bash
-   python "102203269.py <InputDataFile> <Weights> <Impacts> <ResultFileName>"
+   python "topsis-102203269.py <InputDataFile> <Weights> <Impacts> <ResultFileName>"
    ```
    Example Command
    ```bash
